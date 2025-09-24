@@ -53,6 +53,7 @@ Tested MCU:
 |HANDSHAKE|IO8|IO3|IO3|IO21|
 
 [1] required for only in QSPI mode
+SPI Clock is [known](https://docs.espressif.com/projects/esp-at/en/latest/esp32c2/Compile_and_Develop/How_to_implement_SPI_AT.html#reference-results) to be working up to 40MHz. results can vary depending on your wiring quality. test in your own.
 
 ## SDIO
 |Name|RP2040|ESP32|ESP32-C6|
@@ -65,3 +66,10 @@ Tested MCU:
 |DAT3[1]|IO21|IO13|IO23|
 
 [1] required for only 4-bit mode
+
+# See also
+[SPI AT Documentation](https://docs.espressif.com/projects/esp-at/en/latest/esp32c2/Compile_and_Develop/How_to_implement_SPI_AT.html)\
+[SDIO AT Documentation](https://docs.espressif.com/projects/esp-at/en/latest/esp32c6/Compile_and_Develop/How_to_implement_SDIO_AT.html)\
+[ESP-AT](https://github.com/espressif/esp-at)\
+[SPI AT Host for ESP-IDF](https://github.com/espressif/esp-at/tree/master/examples/at_spi_master/spi/esp32_c_series)\
+[SDIO AT Host for ESP-IDF](https://github.com/espressif/esp-at/tree/master/examples/at_sdio_host/ESP32)
