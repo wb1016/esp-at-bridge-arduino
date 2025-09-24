@@ -52,7 +52,7 @@ Tested MCU:
 |CS|IO5|IO10|IO10|IO23|
 |HANDSHAKE|IO8|IO3|IO3|IO21|
 
-[1] required for only in QSPI mode
+[1] required for only in QSPI mode\
 SPI Clock is [known](https://docs.espressif.com/projects/esp-at/en/latest/esp32c2/Compile_and_Develop/How_to_implement_SPI_AT.html#reference-results) to be working up to 40MHz. results can vary depending on your wiring quality. test in your own.
 
 ## SDIO
