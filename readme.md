@@ -22,8 +22,8 @@ RP2040 is cheap, and is a good gateway to switching to diversity of microcontrol
 |ESP32-S2|SPI|N||
 |ESP32-S2|SDIO|N||
 
-[1] get daily [AT builds](https://github.com/espressif/esp-at/actions)
-[2] you will need to use custom AT build or [prebuilt AT by me](https://github.com/wb1016/esp-at-autobuild/actions)
+[1] get daily [AT builds](https://github.com/espressif/esp-at/actions)\
+[2] you will need to use custom AT build or [prebuilt AT by me](https://github.com/wb1016/esp-at-autobuild/actions)\
 [3] development in progress
 
 # Arduino sketch support status
@@ -43,7 +43,7 @@ Tested MCU:
 # Pin assignments
 ## SPI
 |Name|RP2040|ESP32-C2|ESP32-C3|ESP32-C6|
-|---|---|---|---|---|---|
+|---|---|---|---|---|
 |MOSI/D0|IO3|IO7|IO7|IO18|
 |MISO/D1|IO4|IO2|IO2|IO20|
 |D2[1]|IO6|IO8|IO8|IO22|
@@ -56,7 +56,7 @@ Tested MCU:
 
 ## SDIO
 |Name|RP2040|ESP32|ESP32-C6|
-|---|---|---|---|---|---|
+|---|---|---|---|
 |CLK|IO16|IO14|IO19|
 |CMD|IO17|IO15|IO18|
 |DAT0|IO18|IO2|IO20|
