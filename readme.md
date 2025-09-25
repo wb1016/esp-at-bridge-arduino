@@ -28,16 +28,16 @@ RP2040 is cheap, and is a good gateway to switching to diversity of microcontrol
 
 # Arduino sketch support status
 ## Single-SPI
-Arduino sketch: Supported
+Arduino sketch: Supported\
 Tested MCU: ESP32-C2 ESP32-C3
 ## Dual-SPI
-Arduino sketch: Upcoming
+Arduino sketch: Upcoming\
 Tested MCU:
 ## Quad-SPI
-Arduino sketch: Upcoming
+Arduino sketch: Upcoming\
 Tested MCU:
 ## SDIO
-Arduino sketch: Upcoming
+Arduino sketch: Upcoming\
 Tested MCU:
 
 # Pin assignments
